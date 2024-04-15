@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My Classmates</h2>
+
+<button onclick="showBoys()">Boys</button>
+<button onclick="showGirls()">Girls</button>
+
+<div id="boys" style="display:none">
+   
+   <h5>Zul Nuguit</h5> 
+ <img src="zul.jpg">
+ 
+  <h5>Clee Mark Picardal </h5> 
+  <img src="cleemark.jpg">
+  
+   <h5>Michel Picardal</h5> 
+ <img src="michel.jpg">
+   
+   <h5>Jose Operario</h5> 
+  <img src="jose.jpg">
+  
+  <h5>Alfredo Lucapa Jr.</h5> 
+  <img src="bella.jpg">
+</div>
+
+<div id="girls" style="display:none">
+  
+  <h5>Romily Pontica</h5> 
+  <img src="romilyn.jpg">
+
+  <h5>Je ann Orga</h5> 
+  <img src="je ann.jpg">
+  
+  <h5>Joana Ravas</h5> 
+  <img src="wana.jpg">
+
+    <h5>April Rose Dista</h5>
+  <img src="april.jpg">
+  
+  <h5>Marry Ann Sugalan</h5> 
+  <img src="maryann.jpg">
+</div>
+
+<script>
+function showBoys() {
+  document.getElementById('boys').style.display = 'block';
+  document.getElementById('girls').style.display = 'none';
+}
+
+function showGirls() {
+  document.getElementById('girls').style.display = 'block';
+  document.getElementById('boys').style.display = 'none';
+}
+</script>
+
+</body>
+</html>
